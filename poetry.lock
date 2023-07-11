@@ -1,0 +1,40 @@
+[[package]]
+name = "pillow"
+version = "10.0.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline-tabs", "sphinx-removed-in", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[[package]]
+name = "pygame"
+version = "2.5.0"
+description = "Python Game Development"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "pygame-widgets"
+version = "0.4.3"
+description = "Widgets for use with Pygame"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pygame = ">=2.0.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "8fb150b84bbe6545d9ea09f8262d275be7ae8f4938591a4e7cb6e1c682136295"
+
+[metadata.files]
+pillow = []
+pygame = []
+pygame-widgets = []
